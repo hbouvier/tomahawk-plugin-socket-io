@@ -1,0 +1,22 @@
+{
+  "name": "tomahawk-plugin-socket-io",
+  "version": "0.0.1",
+  "description": "Tomahawk socket-io plugin.",
+  "main": "./lib/socketio.js",
+  "bin": {
+    "socket-io-plugin": "./bin/socket-io-plugin"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hbouvier/tomahawk-plugin-socket-io-plugin.git"
+  },
+  "keywords": [
+    "tomahawk",
+    "plugin",
+    "socket-io"
+  ],
+  "dependencies": {
+    "socket.io" : "1.1.0"
+  },
+  "author": "Henri Bouvier"
+}
